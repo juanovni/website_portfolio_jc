@@ -1,0 +1,49 @@
+$primary-color: rgb(23, 23, 23);
+.about-section {
+  padding-top: 5rem;
+  /*background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#161616),
+    color-stop(75%, rgba(22, 22, 22, 0.9)),
+    to(rgba(22, 22, 22, 0.8))
+  );
+  background: linear-gradient(
+    to bottom,
+    #161616 0,
+    rgba(22, 22, 22, 0.9) 75%,
+    rgba(22, 22, 22, 0.8) 100%
+  );*/
+}
+.bgPrincipalContainer {
+  padding-top: 30px;
+  background-color: $primary-color;
+}
+
+.username {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+.anotations {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: hsla(0, 0%, 100%, 0.75) !important;
+  }
+}
+
+.circularimage {
+  border-radius: 10%;
+  box-shadow: 0 0 10px 5px rgb(255 255 255 / 20%);
+  height: 184px;
+  margin-bottom: 20px;
+}
+
+.footer-home {
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}

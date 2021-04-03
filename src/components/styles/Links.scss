@@ -1,0 +1,79 @@
+.insta-button {
+  border-radius: 1.5rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+  max-width: 90vw;
+  font-size: 90%;
+  white-space: normal;
+}
+
+.btn-primary {
+  background-color: #00b4db;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #01a8ce;
+  }
+}
+
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+.iconbig {
+  font-size: 2rem !important;
+}
+
+.btn {
+  position: relative;
+  min-width: 46%;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #20e2d7;
+  margin-bottom: 20px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #20e2d7;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+
+.btn--4::before {
+  left: -520px;
+  right: 0;
+  width: 100%;
+  height: 150%;
+  transition: all 750ms ease;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+}
+.btn--4:hover::before {
+  left: 520px;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(32, 226, 215, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+  }
+}

@@ -1,0 +1,8 @@
+.icon-a-color {
+  color: #20e2d7;
+  cursor: pointer;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #20e2d7;
+  }
+}

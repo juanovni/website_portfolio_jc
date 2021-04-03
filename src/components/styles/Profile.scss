@@ -1,0 +1,245 @@
+$primary-color: #f8f9fa;
+$seconday-color: rgb(23, 23, 23);
+$primary-color-text: #20e2d7;
+$primary-color-text-hover: #20e2d7;
+$url-img-bg: "/images/siliconvalley.jpg";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap");
+
+.hirucP {
+  padding-top: 100px;
+  min-height: 802px;
+  overflow: hidden;
+  position: relative;
+  /*background-image: -webkit-linear-gradient(139deg, #2193b0 0%, #6dd5ed 100%);*/
+  background-color: rgb(23, 23, 23);
+}
+.color-black {
+  color: rgb(23, 23, 23);
+}
+.fz-2 {
+  font-size: 1.3rem;
+}
+.bg-primary-section {
+  background-color: $primary-color;
+}
+
+.bg-secondary-section {
+  background-color: $seconday-color;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color-text;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: $primary-color-text-hover;
+    text-decoration: none;
+  }
+}
+
+.heading-wrapper-text {
+  font-size: 5rem;
+  line-height: 77px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #dedede;
+  font-weight: 900;
+  letter-spacing: 0.8rem;
+}
+
+.menu-nav-tile {
+  padding: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.active {
+  color: $primary-color-text !important;
+}
+
+.heading-wrapper-legend {
+  font-size: 1.1rem;
+}
+
+.headerWrapperBG {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 12rem 0;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 22, 22, 0.1)),
+      color-stop(75%, rgba(22, 22, 22, 0.5)),
+      to(#161616)
+    ),
+    url($url-img-bg);
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.1) 0,
+      rgba(22, 22, 22, 0.5) 75%,
+      #161616 100%
+    ),
+    url($url-img-bg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.line {
+  position: relative;
+  top: 50%;
+  width: 3.3em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+.anim-typewriter {
+  animation: typewriter 3s steps(36) 1s 1 normal both,
+    blinkTextCursor 500ms steps(36) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 3.3em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.line2 {
+  position: relative;
+  top: 50%;
+  width: 8.8em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .line {
+    font-size: 1rem;
+    width: 6em;
+  }
+  .line2 {
+    font-size: 1rem;
+    width: 16em;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .line2 {
+    font-size: 3rem;
+    width: 10em;
+  }
+}
+.anim-typewriter2 {
+  animation: typewriter2 4s steps(36) 4s 1 normal both,
+    blinkTextCursor2 500ms steps(36) infinite normal;
+}
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 8.8em;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 6em;
+    }
+  }
+  @keyframes typewriter2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 16em;
+    }
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  @keyframes typewriter2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10em;
+    }
+  }
+}
+@keyframes blinkTextCursor2 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.workpadding {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 992px) {
+  .work-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid $primary-color-text;
+  }
+}
+
+.circularlogo {
+  height: 60px;
+  background-color: #fff;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+.bb-section {
+  border-bottom: 0.5rem solid $primary-color-text;
+  padding: 0 0 1rem 0;
+}
+
+.skillset_section img {
+  width: 6rem;
+  max-width: 100%;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  border-radius: 2rem;
+}
+
+.image-container {
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .col-sm-3 {
+    width: 25%;
+  }
+}

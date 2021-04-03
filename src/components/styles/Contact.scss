@@ -1,0 +1,14 @@
+$primary-color-text: #20e2d7;
+.contact-section .card hr {
+  border-color: $primary-color-text;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid $primary-color-text;
+}
+
+.cl-primary {
+  color: $primary-color-text;
+}
