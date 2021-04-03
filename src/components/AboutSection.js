@@ -16,7 +16,7 @@ const AboutSection = () => {
               I'm working implementation team in Vistadash. I'm interested in
               building web apps, and teaching / tutoring (both coding and
               non-coding things!). Please see my{" "}
-              <a href={Pdf} target="_blank" alt="CV Juan Constantine">
+              <a href={Pdf} alt="CV Juan Constantine">
                 resume
               </a>{" "}
               (or continue scrolling down here) if you want to learn more about
