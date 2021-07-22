@@ -1,6 +1,12 @@
 import React from "react";
 import "../components/styles/Skillset.scss";
 import adwordsImage from "../images/skillset/adwords.svg";
+
+import html5Image from "../images/skillset/html-5.svg";
+import jQueryImage from "../images/skillset/jquery.png";
+import bootstrapImage from "../images/skillset/bootstrap.png";
+import sassImage from "../images/skillset/sass.png";
+import reactImage from "../images/skillset/react.png";
 import phpImage from "../images/skillset/php.svg";
 import mysqlImage from "../images/skillset/mysql.svg";
 
@@ -8,12 +14,12 @@ const SkillsetSection = () => {
   const icons = [
     {
       id: 0,
-      image: "http://www.xaviro.com/assets/img/skills/html.svg",
+      image: html5Image,
       description: "HTML5",
     },
     {
       id: 14,
-      image: "http://www.xaviro.com/assets/img/skills/jquery.svg",
+      image: jQueryImage,
       description: "JQuery",
     },
     {
@@ -28,12 +34,12 @@ const SkillsetSection = () => {
     },
     {
       id: 3,
-      image: "http://www.xaviro.com/assets/img/skills/bootstrap.svg",
+      image: bootstrapImage,
       description: "Bootstrap",
     },
     {
       id: 4,
-      image: "http://www.xaviro.com/assets/img/skills/sass.svg",
+      image: sassImage,
       description: "SASS",
     },
     {
@@ -63,7 +69,7 @@ const SkillsetSection = () => {
     },
     {
       id: 10,
-      image: "http://www.xaviro.com/assets/img/skills/react.svg",
+      image: reactImage,
       description: "React",
     },
     {
