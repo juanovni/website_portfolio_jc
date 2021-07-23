@@ -24,7 +24,7 @@ const AboutSection = () => {
             </p>
             <p className="text-black text-center fz-2">
               Above all, I am passionate about altruistic causes using
-              technology. For example, I served on the exec team of TeleLabs
+              technology. For example, I served on the exec team of DocConsulta
               Consulting, a club that works with entrepreneur teams to code and
               deliver pro-bono software-driven solutions to local nonprofits.
               This software helped communicate in very difficult times of the

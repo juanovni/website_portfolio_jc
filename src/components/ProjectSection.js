@@ -4,7 +4,7 @@ import RightProject from "../components/RightProject";
 import "../components/styles/Project.scss";
 //IMAGES
 import lchmImage from "../images/projects/lchm.PNG";
-import telelabsImage from "../images/projects/telelabs.png";
+import docconsultaImage from "../images/projects/DocConsulta.png";
 
 const ProjectSection = () => {
   const projects = [
@@ -19,11 +19,11 @@ const ProjectSection = () => {
     },
     {
       id: 1,
-      image: telelabsImage,
-      title: "Telelabs",
+      image: docconsultaImage,
+      title: "Doc Consulta",
       descripction:
         "A web application that helps people to video conference with specialized doctors through scheduled appointments.",
-      access_to_link: null,
+      access_to_link: "https://www.doc-consulta.com/login",
       div: "right",
     },
   ];

@@ -9,6 +9,13 @@ import sassImage from "../images/skillset/sass.png";
 import reactImage from "../images/skillset/react.png";
 import phpImage from "../images/skillset/php.svg";
 import mysqlImage from "../images/skillset/mysql.svg";
+import bashImage from "../images/skillset/bash.png";
+import gitImage from "../images/skillset/git.png";
+import nodejsImage from "../images/skillset/nodejs.png";
+import typescriptImage from "../images/skillset/typescript.png";
+import npmImage from "../images/skillset/npm.png";
+import firebaseImage from '../images/skillset/firebase.png';
+import laravelImage from '../images/skillset/laravel.png';
 
 const SkillsetSection = () => {
   const icons = [
@@ -23,13 +30,8 @@ const SkillsetSection = () => {
       description: "JQuery",
     },
     {
-      id: 1,
-      image: "http://www.xaviro.com/assets/img/skills/js.svg",
-      description: "ES6",
-    },
-    {
       id: 2,
-      image: "http://www.xaviro.com/assets/img/skills/typescript.svg",
+      image: typescriptImage,
       description: "TYPESCRIPT",
     },
     {
@@ -44,27 +46,27 @@ const SkillsetSection = () => {
     },
     {
       id: 5,
-      image: "http://www.xaviro.com/assets/img/skills/git.svg",
+      image: gitImage,
       description: "GIT & GITHUB",
     },
     {
       id: 6,
-      image: "http://www.xaviro.com/assets/img/skills/node.svg",
+      image: nodejsImage,
       description: "NODE JS",
     },
     {
       id: 7,
-      image: "http://www.xaviro.com/assets/img/skills/npm.svg",
+      image: npmImage,
       description: "NPM",
     },
     {
       id: 8,
-      image: "http://www.xaviro.com/assets/img/skills/firebase.svg",
+      image: firebaseImage,
       description: "Firebase",
     },
     {
       id: 9,
-      image: "http://www.xaviro.com/assets/img/skills/bash.svg",
+      image: bashImage,
       description: "Bash",
     },
     {
@@ -74,8 +76,7 @@ const SkillsetSection = () => {
     },
     {
       id: 11,
-      image:
-        "https://cdn.iconscout.com/icon/free/png-256/laravel-2-1175146.png",
+      image: laravelImage,
       description: "Laravel",
     },
     {
