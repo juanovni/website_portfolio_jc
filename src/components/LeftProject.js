@@ -1,10 +1,11 @@
 import React from "react";
+import "../components/styles/ProjectItem.scss";
 
 const LeftProject = (project) => {
-  const { id, image, title, descripction, access_to_link } = project;
+  const { id, image, title, descripction, access_to_link, technologies  } = project;
   return (
     <div key={id} className="row" style={{ backgroundColor: "#000" }}>
-      <div className="col-lg-6 mx-auto">
+      <div className="col-lg-6 my-auto mx-auto">
         <img className="img-fluid" src={image} alt="" />
       </div>
       <div className="col-lg-6 mx-auto">
@@ -17,6 +18,16 @@ const LeftProject = (project) => {
                 {" "}
                 {access_to_link ? <a href={access_to_link}>ACCESS IT</a> : null}
               </p>
+              { technologies ? <h6 className="text-white">Tecnología</h6> : null}
+              { technologies && (
+                
+                <ul>
+                  {technologies.map((technologie) => {
+                    return <li key={ technologie.id }>{ technologie.name }</li>;
+                  })}
+                  
+                </ul>
+              )}
             </div>
           </div>
         </div>
